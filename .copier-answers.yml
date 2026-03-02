@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier
+_commit: v0.3.14
+_src_path: https://github.com/fohte/generic-boilerplate
+description: Homebrew formulae for fohte's projects
+is_public: true
+project_name: homebrew-tap
+subpackages: []
+type: base
+use_release_please: false

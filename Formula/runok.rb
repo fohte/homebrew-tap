@@ -3,13 +3,13 @@
 class Runok < Formula
   desc "Command execution permission framework for LLM agents"
   homepage "https://runok.fohte.net"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/fohte/runok/releases/download/v#{version}/runok-aarch64-apple-darwin.tar.gz"
-      sha256 "e1aa416ce0dfa13661b621d0b8aa7f6cd9b647ebcb8cfdf52772c5bfbb998247"
+      sha256 "47593fa5d17d3d8dc3054bcba9305cc8e7ab4520cb3cee4b5eea3a67a596f669"
     end
     on_intel do
       odie "runok is not available for macOS Intel (x86_64). Only Apple Silicon (arm64) is supported."
@@ -19,11 +19,11 @@ class Runok < Formula
   on_linux do
     on_arm do
       url "https://github.com/fohte/runok/releases/download/v#{version}/runok-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0c597633dca735e96e5f02c7a6974b267a21815cec8ed6cb46ff26df22328276"
+      sha256 "073909820f7a8e2b77bf256b1865ca7f93c61bd2445c56e17a0ec0699c97f5ab"
     end
     on_intel do
       url "https://github.com/fohte/runok/releases/download/v#{version}/runok-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a3771658b89d42cd7c40343661c0fa7e71e6fa98d36cd00d72493eb8d911dec6"
+      sha256 "44a83a4cb7dbb3d1af8826aea2652bf87c40a5e1cee5c8ac941e8c814604b735"
     end
   end
 

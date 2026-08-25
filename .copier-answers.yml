@@ -4,7 +4,7 @@ _src_path: https://github.com/fohte/generic-boilerplate
 description: Homebrew formulae for fohte's projects
 is_public: true
 project_name: homebrew-tap
-repo_id: ''
+repo_id: '1170290565'
 repo_language: en
 subpackages: []
 type: base

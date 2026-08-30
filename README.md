@@ -9,10 +9,10 @@ brew tap fohte/tap
 brew install <formula>
 ```
 
-Some formulae support installing from the latest `main` branch source:
+`runok` also supports installing from the latest `main` branch source:
 
 ```sh
-brew install --HEAD <formula>
+brew install --HEAD runok
 ```
 
 ## Formulae

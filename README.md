@@ -9,6 +9,12 @@ brew tap fohte/tap
 brew install <formula>
 ```
 
+`runok` also supports installing from the latest `main` branch source:
+
+```sh
+brew install --HEAD runok
+```
+
 ## Formulae
 
 | Formula                          | Version                                                                                                                       | Description                                           |
